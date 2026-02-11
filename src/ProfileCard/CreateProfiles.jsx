@@ -1,5 +1,5 @@
 import './ProfileCard.css'
-import ProfileCard from "./profileCard";
+import ProfileCard from "./ProfileCard";
 
 function CreateProfiles() {
   const profiles = [
