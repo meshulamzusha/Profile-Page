@@ -57,6 +57,7 @@ function CreateProfiles() {
     <div className="cards-container">
       {profiles.map((profile) => (
         <ProfileCard
+          key={profile.description}
           imgSrc={profile.imgSrc}
           name={profile.name}
           description={profile.description}
