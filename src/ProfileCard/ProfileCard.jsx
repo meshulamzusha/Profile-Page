@@ -3,11 +3,11 @@ import Button from "../Button/Button";
 
 function ProfileCard(props) {
   return (
-    <div className="card-container">
-      <img src={props.imgSrc} alt="profile img" className="profile-img"/>
-      <p className="name">{props.name}</p>
+    <div className="profile-card">
+      <img src={props.imgSrc} alt="profile image" className="profile-img" />
+      <p className="person-name">{props.name}</p>
       <p className="description">{props.description}</p>
-      <Button personType={props.personType}/>
+      <Button personType={props.personType}></Button>
     </div>
   );
 }

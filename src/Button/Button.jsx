@@ -1,7 +1,28 @@
-import './Button.css'
+import "./Button.css";
 
 function Button(props) {
-  return <button className={`${props.PersonType}-btn`}>Click Me!</button>;
+  const btnColor = (personType) => {
+    let color;
+    switch (personType) {
+      case "Friend":
+        color = "green";
+        break;
+      case "Teacher":
+        color = "blue";
+        break;
+      case "Student":
+        color = "purple";
+        break;
+      default:
+        color = "default";
+    }
+
+    return color;
+  };
+
+  return <div>
+    <button className={`${btnColor(props.personType)}-btn`}>Click Me!</button>
+  </div>;
 }
 
 export default Button;

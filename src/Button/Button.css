@@ -1,6 +1,37 @@
 button {
-    margin-top: 50px;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 15px;
+  border: solid 2px #c3e6da;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  transition: 0.2s ease;
+  font-weight: 600;
+  margin-top: 15px;
 }
+
+.green-btn {
+    background-color: rgba(153, 226, 119, 0.753);
+    border: solid 2px #56c522;
+}
+.blue-btn {
+    background-color: rgb(144, 211, 250);
+    border: solid 2px rgb(95, 159, 255);
+}
+.purple-btn {
+    background-color: #e0abe0;
+    border: solid 2px #df79da;
+}
+.default-btn {
+    background-color: rgb(243, 113, 113);
+    border: solid 2px rgb(168, 59, 59);
+}
+
+button:hover {
+    opacity: 0.8;
+    border-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(105, 110, 89, 0.849);
+}
+
+

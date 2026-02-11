@@ -1,11 +1,12 @@
-import "./App.css";
 import Header from "./Header/Header";
-import CreateProfileCards from "./ProfileCard/CreateProfileCards";
+import CreateProfiles from "./ProfileCard/CreateProfiles";
+import './App.css'
 
 function App() {
   return (
     <>
-      <Header /> <CreateProfileCards />
+      <Header />
+      <CreateProfiles />
     </>
   );
 }

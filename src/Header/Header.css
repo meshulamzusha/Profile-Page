@@ -1,0 +1,11 @@
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #213547;
+  text-align: center;
+  margin: 30px;
+}

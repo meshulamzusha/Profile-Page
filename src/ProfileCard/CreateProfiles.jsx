@@ -1,10 +1,10 @@
 import './ProfileCard.css'
-import ProfileCard from "./ProfileCard";
+import ProfileCard from "./profileCard";
 
-function CreateProfileCards() {
+function CreateProfiles() {
   const profiles = [
     {
-      imgSrc: "src/assets/35192750.jpg",
+      imgSrc: "src/assets/3519275.jpg",
       name: "Alice",
       description: "Always curious to learn more",
       personType: "Student",
@@ -67,4 +67,4 @@ function CreateProfileCards() {
   );
 }
 
-export default CreateProfileCards;
+export default CreateProfiles;
