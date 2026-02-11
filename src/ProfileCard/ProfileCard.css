@@ -1,0 +1,30 @@
+.card-container {
+    border: solid 2px #00af60;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(120, 160, 107, 0.461);
+    background-color: #fafff8;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+
+    border: solid 3px #e394949f;
+    border-radius: 100px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 25px;
+    color: #666a65;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
